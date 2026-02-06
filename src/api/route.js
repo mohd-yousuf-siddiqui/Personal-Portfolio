@@ -1,6 +1,26 @@
 export const projects = [
   {
     id: 1,
+    title: "Flux Notes App",
+    description:
+      "A full-stack notes application with authentication, CRUD operations, pinning, search, and a modern dark UI.",
+    image: "/projects/notes-app.png",
+    liveLink: "https://flux-notes.vercel.app",
+    githubLink:
+      "https://github.com/mohd-yousuf-siddiqui/FLUX-NOTES",
+    techUsed: [
+      "React",
+      "Redux Toolkit",
+      "Tailwind CSS",
+      "Node.js",
+      "Express",
+      "MongoDB"
+    ],
+    featured: true
+  },
+
+  {
+    id: 2,
     title: "Cynthia Ugwu Portfolio Clone",
     description:
       "A pixel-perfect clone of the Cynthia Ugwu portfolio focusing on smooth scrolling, animations, and modern UI interactions.",
@@ -8,20 +28,7 @@ export const projects = [
     liveLink: "https://cynthia-ugwu-portfolio-clone.vercel.app",
     githubLink:
       "https://github.com/mohd-yousuf-siddiqui/Cynthia-Ugwu-Portfolio-Clone",
-    techUsed: ["HTML", "CSS", "JavaScript", "GSAP"],
-    featured: true
-  },
-
-  {
-    id: 2,
-    title: "StudySync Landing Page",
-    description:
-      "A responsive landing page for an education platform with clean UI, structured sections, and modern layout.",
-    image: "/projects/studysync.png",
-    liveLink: "https://studysync-landing-page.vercel.app",
-    githubLink:
-      "https://github.com/mohd-yousuf-siddiqui/StudySync-Landing-Page",
-    techUsed: ["HTML", "CSS", "JavaScript"]
+    techUsed: ["HTML", "CSS", "JavaScript", "GSAP"]
   },
 
   {
@@ -34,5 +41,5 @@ export const projects = [
     githubLink:
       "https://github.com/mohd-yousuf-siddiqui/RealEstate-Landing-Page",
     techUsed: ["HTML", "CSS", "JavaScript"]
-  },
-]
+  }
+];
