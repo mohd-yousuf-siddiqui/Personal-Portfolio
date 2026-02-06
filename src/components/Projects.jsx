@@ -132,7 +132,7 @@ const ProjectCard = ({ project, index }) => {
 
         {/* Tech Stack */}
         <div className="flex flex-wrap gap-1.5 mb-6">
-          {project.techUsed.slice(0, 4).map((tech, idx) => (
+          {project.techUsed.slice(0, 10).map((tech, idx) => (
             <span
               key={idx}
               className="text-xs px-2.5 py-1 rounded-md bg-zinc-800/50 text-zinc-400 border border-zinc-800"
@@ -140,9 +140,9 @@ const ProjectCard = ({ project, index }) => {
               {tech}
             </span>
           ))}
-          {project.techUsed.length > 4 && (
+          {project.techUsed.length > 10 && (
             <span className="text-xs px-2.5 py-1 rounded-md bg-zinc-800/50 text-zinc-500">
-              +{project.techUsed.length - 4}
+              +{project.techUsed.length - 10}
             </span>
           )}
         </div>

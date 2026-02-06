@@ -10,12 +10,12 @@ const Skills = () => {
     {
       category: "Frontend",
       description: "Building user interfaces",
-      skills: ["React", "JavaScript", "HTML/CSS", "Tailwind CSS", "Next.js"]
+      skills: ["React", "JavaScript", "HTML/CSS", "Tailwind CSS",]
     },
     {
       category: "Backend",
       description: "Server-side development",
-      skills: ["Node.js", "Express", "MongoDB"]
+      skills: ["Node.js", "Express", "MongoDB",]
     },
     {
       category: "Tools",
