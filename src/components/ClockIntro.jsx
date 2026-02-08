@@ -450,11 +450,13 @@ const ClockIntro = ({ onComplete }) => {
         className="mt-10 text-center"
       >
         <h1 className="text-2xl md:text-3xl font-semibold tracking-wide">
+          <span className="text-white">MOHD</span>
+          {' '}
           <span className="text-white">YOUSUF</span>
           {' '}
-          <span className="text-zinc-500">SIDDIQUI</span>
+          <span className="text-white">SIDDIQUI</span>
         </h1>
-        <p className="text-zinc-600 text-sm mt-2 tracking-widest uppercase">Full Stack Developer</p>
+        <p className="text-zinc-600 text-sm mt-2 tracking-widest uppercase">Frontend Developer</p>
       </motion.div>
 
       {/* Continue hint */}

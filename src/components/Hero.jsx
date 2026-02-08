@@ -88,7 +88,7 @@ const Hero = () => {
             <motion.div variants={itemVariants} className="mt-6">
               <span className="inline-flex items-center gap-2 text-zinc-500 text-lg sm:text-xl">
                 <span className="w-8 h-px bg-zinc-700" />
-                Full Stack Developer
+                Front end Developer
                 <span className="w-8 h-px bg-zinc-700" />
               </span>
             </motion.div>
@@ -131,7 +131,7 @@ const Hero = () => {
             >
               {/* View Resume */}
               <a
-                href="/Mohd-Yousuf-Siddiqui.pdf"
+                href="/Mohd Yousuf Siddiqui - FrontendDeveloperResume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group relative px-6 py-3 bg-white text-black font-medium rounded-full inline-flex items-center justify-center gap-2 overflow-hidden"
