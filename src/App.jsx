@@ -155,7 +155,7 @@ const Footer = () => {
               </div>
               <div>
                 <p className="font-medium text-white text-sm group-hover:text-zinc-300 transition-colors">Yousuf Siddiqui</p>
-                <p className="text-xs text-zinc-600">Full Stack Developer</p>
+                <p className="text-xs text-zinc-600">Frontend Developer</p>
               </div>
             </a>
             <p className="text-sm text-zinc-500 leading-relaxed max-w-xs">
